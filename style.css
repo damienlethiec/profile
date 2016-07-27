@@ -38,7 +38,7 @@ img {
 }
 
 .container {
-  width: 700px;
+  width: 900px;
   margin: 30px auto;
 }
 
@@ -96,3 +96,30 @@ img {
   margin-bottom: 10px;
 }
 
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #7D7D7D;
+  text-align: center;
+  color: white;
+}
+
+#sidebar a {
+  color: white;
+}
+
+#page-content {
+  margin-left: 250px;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  padding-top: 30px;
+}
